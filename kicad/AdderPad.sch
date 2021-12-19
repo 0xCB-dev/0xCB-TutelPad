@@ -14,14 +14,357 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keebio:ProMicro U?
+L keebio:ProMicro U1
 U 1 1 61BF6641
 P 3000 5350
-F 0 "U?" H 3000 6187 60  0000 C CNN
+F 0 "U1" H 3000 6187 60  0000 C CNN
 F 1 "ProMicro" H 3000 6081 60  0000 C CNN
-F 2 "" V 4050 2850 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 4050 2850 60  0001 C CNN
 F 3 "" V 4050 2850 60  0001 C CNN
 	1    3000 5350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61BF905C
+P 1500 5100
+F 0 "#PWR0101" H 1500 4850 50  0001 C CNN
+F 1 "GND" H 1505 4927 50  0000 C CNN
+F 2 "" H 1500 5100 50  0001 C CNN
+F 3 "" H 1500 5100 50  0001 C CNN
+	1    1500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5100 1500 5100
+Wire Wire Line
+	2300 5000 2300 5100
+Connection ~ 2300 5100
+Wire Wire Line
+	3700 4900 3850 4900
+NoConn ~ 3700 4800
+NoConn ~ 2300 4900
+NoConn ~ 2300 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 61BFAFD5
+P 4700 2150
+F 0 "MX1" H 4733 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 4733 2299 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 4075 2125 60  0001 C CNN
+F 3 "" H 4075 2125 60  0001 C CNN
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 61BFBF3D
+P 4500 2400
+F 0 "D1" H 4500 2500 50  0000 R CNN
+F 1 "D_Small" H 4850 2500 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 4500 2400 50  0001 C CNN
+F 3 "~" V 4500 2400 50  0001 C CNN
+	1    4500 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2300 4500 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 61C03AF6
+P 5300 2150
+F 0 "MX2" H 5333 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 5333 2299 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 4675 2125 60  0001 C CNN
+F 3 "" H 4675 2125 60  0001 C CNN
+	1    5300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 61C03AFC
+P 5100 2400
+F 0 "D2" H 5100 2500 50  0000 R CNN
+F 1 "D_Small" H 5450 2500 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 5100 2400 50  0001 C CNN
+F 3 "~" V 5100 2400 50  0001 C CNN
+	1    5100 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 2300 5100 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 61C0A8FD
+P 5900 2150
+F 0 "MX3" H 5933 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 5933 2299 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5275 2125 60  0001 C CNN
+F 3 "" H 5275 2125 60  0001 C CNN
+	1    5900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 61C0A903
+P 5700 2400
+F 0 "D3" H 5700 2500 50  0000 R CNN
+F 1 "D_Small" H 6050 2500 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 5700 2400 50  0001 C CNN
+F 3 "~" V 5700 2400 50  0001 C CNN
+	1    5700 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2300 5700 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 61C0A90A
+P 6500 2150
+F 0 "MX4" H 6533 2373 60  0000 C CNN
+F 1 "MX-NoLED" H 6533 2299 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5875 2125 60  0001 C CNN
+F 3 "" H 5875 2125 60  0001 C CNN
+	1    6500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 61C0A910
+P 6300 2400
+F 0 "D4" H 6300 2500 50  0000 R CNN
+F 1 "D_Small" H 6650 2500 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 6300 2400 50  0001 C CNN
+F 3 "~" V 6300 2400 50  0001 C CNN
+	1    6300 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 2300 6300 2300
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 61C11867
+P 4700 2800
+F 0 "MX5" H 4733 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 4733 2949 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 4075 2775 60  0001 C CNN
+F 3 "" H 4075 2775 60  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 61C1186D
+P 4500 3050
+F 0 "D5" H 4500 3150 50  0000 R CNN
+F 1 "D_Small" H 4850 3150 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 4500 3050 50  0001 C CNN
+F 3 "~" V 4500 3050 50  0001 C CNN
+	1    4500 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2950 4500 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 61C11874
+P 5300 2800
+F 0 "MX6" H 5333 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 5333 2949 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 4675 2775 60  0001 C CNN
+F 3 "" H 4675 2775 60  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 61C1187A
+P 5100 3050
+F 0 "D6" H 5100 3150 50  0000 R CNN
+F 1 "D_Small" H 5450 3150 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 5100 3050 50  0001 C CNN
+F 3 "~" V 5100 3050 50  0001 C CNN
+	1    5100 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 2950 5100 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 61C11881
+P 5900 2800
+F 0 "MX7" H 5933 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 5933 2949 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5275 2775 60  0001 C CNN
+F 3 "" H 5275 2775 60  0001 C CNN
+	1    5900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 61C11887
+P 5700 3050
+F 0 "D7" H 5700 3150 50  0000 R CNN
+F 1 "D_Small" H 6050 3150 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 5700 3050 50  0001 C CNN
+F 3 "~" V 5700 3050 50  0001 C CNN
+	1    5700 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2950 5700 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 61C1188E
+P 6500 2800
+F 0 "MX8" H 6533 3023 60  0000 C CNN
+F 1 "MX-NoLED" H 6533 2949 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5875 2775 60  0001 C CNN
+F 3 "" H 5875 2775 60  0001 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 61C11894
+P 6300 3050
+F 0 "D8" H 6300 3150 50  0000 R CNN
+F 1 "D_Small" H 6650 3150 50  0000 R CNN
+F 2 "Keebio-Parts:Diode" V 6300 3050 50  0001 C CNN
+F 3 "~" V 6300 3050 50  0001 C CNN
+	1    6300 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 2950 6300 2950
+Wire Wire Line
+	4850 1700 4850 2100
+Connection ~ 4850 2100
+Wire Wire Line
+	4850 2100 4850 2750
+Wire Wire Line
+	5450 1700 5450 2100
+Connection ~ 5450 2100
+Wire Wire Line
+	5450 2100 5450 2750
+Wire Wire Line
+	6050 1700 6050 2100
+Connection ~ 6050 2100
+Wire Wire Line
+	6050 2100 6050 2750
+Wire Wire Line
+	6650 1700 6650 2100
+Connection ~ 6650 2100
+Wire Wire Line
+	6650 2100 6650 2750
+Wire Wire Line
+	6300 3150 5700 3150
+Connection ~ 4500 3150
+Wire Wire Line
+	4500 3150 4000 3150
+Connection ~ 5100 3150
+Wire Wire Line
+	5100 3150 4500 3150
+Connection ~ 5700 3150
+Wire Wire Line
+	5700 3150 5100 3150
+Wire Wire Line
+	4000 2500 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 5100 2500
+Connection ~ 5100 2500
+Wire Wire Line
+	5100 2500 5700 2500
+Connection ~ 5700 2500
+Wire Wire Line
+	5700 2500 6300 2500
+Text GLabel 4850 1700 1    50   Input ~ 0
+COL0
+Text GLabel 5450 1700 1    50   Input ~ 0
+COL1
+Text GLabel 6050 1700 1    50   Input ~ 0
+COL2
+Text GLabel 6650 1700 1    50   Input ~ 0
+COL3
+Text GLabel 4000 2500 0    50   Input ~ 0
+ROW0
+Text GLabel 4000 3150 0    50   Input ~ 0
+ROW1
+$Comp
+L power:VCC #PWR0102
+U 1 1 61C1539D
+P 4100 5100
+F 0 "#PWR0102" H 4100 4950 50  0001 C CNN
+F 1 "VCC" H 4115 5273 50  0000 C CNN
+F 2 "" H 4100 5100 50  0001 C CNN
+F 3 "" H 4100 5100 50  0001 C CNN
+	1    4100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5100 4100 5100
+$Comp
+L power:GND #PWR0103
+U 1 1 61BF99FA
+P 4100 4650
+F 0 "#PWR0103" H 4100 4400 50  0001 C CNN
+F 1 "GND" H 4105 4477 50  0000 C CNN
+F 2 "" H 4100 4650 50  0001 C CNN
+F 3 "" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4650 3850 4650
+Wire Wire Line
+	3850 4650 3850 4900
+Text GLabel 3700 5700 2    50   Input ~ 0
+ROW1
+Text GLabel 3700 5600 2    50   Input ~ 0
+COL3
+Text GLabel 3700 5500 2    50   Input ~ 0
+COL2
+Text GLabel 3700 5400 2    50   Input ~ 0
+COL1
+Text GLabel 3700 5300 2    50   Input ~ 0
+COL0
+Text GLabel 3700 5200 2    50   Input ~ 0
+ROW0
+NoConn ~ 3700 5800
+NoConn ~ 3700 5900
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61C2183C
+P 5200 3950
+F 0 "SW1" H 5200 4235 50  0000 C CNN
+F 1 "SW_Push" H 5200 4144 50  0000 C CNN
+F 2 "Button_Switch_THT:KSA_Tactile_SPST" H 5200 4150 50  0001 C CNN
+F 3 "~" H 5200 4150 50  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61C228A0
+P 5700 3850
+F 0 "#PWR0104" H 5700 3600 50  0001 C CNN
+F 1 "GND" H 5705 3677 50  0000 C CNN
+F 2 "" H 5700 3850 50  0001 C CNN
+F 3 "" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3950 5550 3950
+Wire Wire Line
+	5550 3950 5550 3850
+Wire Wire Line
+	5550 3850 5700 3850
+Text GLabel 4800 3950 0    50   Input ~ 0
+reset
+Wire Wire Line
+	4800 3950 5000 3950
+Text GLabel 3700 5000 2    50   Input ~ 0
+reset
 $EndSCHEMATC
