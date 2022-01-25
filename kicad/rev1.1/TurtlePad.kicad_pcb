@@ -43,6 +43,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (grid_origin 175.41875 116.763439)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -1024,6 +1025,9 @@
   (gr_line (start 206.784061 120.875939) (end 100.421561 120.875939) (layer "Edge.Cuts") (width 0.05) (tstamp 88280123-54fa-46b3-a789-ba6d0fcb544d))
   (gr_line (start 100.421561 79.600939) (end 206.784061 79.600939) (layer "Edge.Cuts") (width 0.05) (tstamp 91730c46-5b9d-427c-8920-3a60089f4030))
   (gr_arc (start 206.784061 79.600939) (mid 208.467859 80.298391) (end 209.165311 81.982189) (layer "Edge.Cuts") (width 0.05) (tstamp 94bd1672-d425-4f23-88b8-0ba2bd5a79e6))
+  (gr_text "TurtlePad rev1.1\nDesigned by ItsFiremanSam" (at 174.625 115.969689) (layer "B.SilkS") (tstamp 06834fca-71b2-4ac3-95b3-cb0563d85f78)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
 
   (segment (start 151.077811 116.400939) (end 150.934061 116.400939) (width 0.254) (layer "F.Cu") (net 2) (tstamp 0c9c26f2-2ab0-4873-903c-fd932c48c31d))
   (segment (start 121.117811 107.223439) (end 120.106561 106.212189) (width 0.254) (layer "B.Cu") (net 2) (tstamp 76cf8a2b-b60f-4afd-8a08-d47b51333d5d))
