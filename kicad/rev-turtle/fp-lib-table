@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri "C:/Users/sbdut/Documents/Coding Adventures/Keyboard hobby/Keyboard Projects/TurtlePad/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri "C:/Users/sbdut/Documents/Coding Adventures/Keyboard hobby/KiCad Libraries/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
+  (lib (name SSD1306)(type KiCad)(uri "C:/Users/sbdut/Documents/Coding Adventures/Keyboard hobby/KiCad Libraries/KiCad-SSD1306-128x64/library/SSD1306.pretty")(options "")(descr ""))
+)
