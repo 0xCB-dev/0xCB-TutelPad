@@ -26,13 +26,13 @@ KiCad 6 stable release - using these [libs](https://github.com/0xCB-dev/0xcb-lib
 
 Top | Bottom
 :-------------------------:|:-------------------------:
-![](https://github.com/0xCB-dev/0xcb-1337/blob/main/PCB/rev1.0/top.png)  |  ![](https://github.com/0xCB-dev/0xcb-1337/blob/main/PCB/rev1.0/bottom.png)
+![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/front.png)  |  ![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/back.png)
 
 ### CAD files:
 
-[DXF](https://github.com/0xCB-dev/0xcb-1337/tree/main/rev4.0/1337-freecad.FCStd)
+[DXF](https://github.com/0xCB-dev/0xCB-TutelPad/tree/main/CAD/DXF)
 
-[SolidWorks](https://github.com/0xCB-dev/0xcb-1337/tree/main/rev4.0/1337-v4.0.step)
+[SolidWorks](https://github.com/0xCB-dev/0xCB-TutelPad/tree/main/CAD/Solidworks)
 
 #### BOM:
  References                        | Value          | Quantity | Part Nb.            
