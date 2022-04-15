@@ -350,7 +350,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TurtlePad.kicad_pro",
+    "filename": "TutelPad.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -406,7 +406,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "Turtle.step",
-      "vrml": ""
+      "vrml": "TutelPad.wrl"
     },
     "page_layout_descr_file": ""
   },
