@@ -26,7 +26,7 @@ KiCad 6 stable release - using these [libs](https://github.com/0xCB-dev/0xcb-lib
 
 Top | Bottom
 :-------------------------:|:-------------------------:
-![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/front.png)  |  ![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/back.png)
+![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/top.png)  |  ![](https://github.com/0xCB-dev/0xCB-TutelPad/blob/main/PCB/rev1.0/bottom.png)
 
 ### CAD files:
 
