@@ -32,8 +32,6 @@ Top | Bottom
 
 [DXF](https://github.com/0xCB-dev/0xCB-TutelPad/tree/main/CAD/DXF)
 
-[SolidWorks](https://github.com/0xCB-dev/0xCB-TutelPad/tree/main/CAD/Solidworks)
-
 #### BOM:
  References                        | Value          | Quantity | Part Nb.            
 -----------------------------------|----------------|----------|---------------------
