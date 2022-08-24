@@ -3,7 +3,7 @@
 
 Licence | OSHWA
 :-------------------------:|:-------------------------:
-![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/PCB/rev1.0/OSHWA.svg)](https://certification.oshwa.org/.html)
+![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/PCB/rev1.0/OSHWA.svg)](https://certification.oshwa.org/nl000009.html)
 
 ### Available here:
 
