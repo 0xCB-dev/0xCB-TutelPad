@@ -5,6 +5,10 @@ Licence | OSHWA
 :-------------------------:|:-------------------------:
 ![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-TutelPad/blob/main/PCB/rev1.0/OSHWA.svg)](https://certification.oshwa.org/.html)
 
+### Available here:
+
+[KeebSupply](https://keeb.supply/products/0xcb-tutelpad)
+
 ### QMK
 
 [keyboards/0xcb/tutelpad/](https://github.com/qmk/qmk_firmware/tree/master/keyboards/0xcb/tutelpad)
